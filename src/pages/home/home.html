@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Be Myself
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="showhead">
+    <img src="https://ionicframework.com/img/ionic-logo-blog.png" class="showimg">
+    <p>
+      Welcome to my site 
+    </p>
+  </div>
+  <ion-list>
+    <ion-item (click)="goToAbout()">
+      <ion-icon name="contact" item-start></ion-icon>About Me
+    </ion-item>
+    <ion-item (click)="goToFriends()">
+      <ion-icon name="people" item-start></ion-icon>Friends List
+    </ion-item>
+    <ion-item (click)="goToPlaces()">
+      <ion-icon name="image" item-start></ion-icon>Favorite Places
+    </ion-item>
+    <ion-item>
+      <ion-icon name="planet" item-start></ion-icon>Social Media
+    </ion-item>
+    <ion-item (click)="goToSlides()">
+      <ion-icon name="apps" item-start></ion-icon> Image Slides
+    </ion-item>
+  </ion-list>
+</ion-content>
